@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 32em;
+  align-items: flex-start;
+}
+
+.container {
+  width: 19em;
+  min-height: 10em;
+}
+
+.header {
+  display: flex;
+  font-size: 0.8em;
+  justify-content: space-between;
+  background-color: #386890;
+  border: 0.1em solid #cccccc;
+  border-radius: 0.8em 0.8em 0em 0em;
+}
+
+.headerDetails {
+  display: flex;
+  align-items: center;
+}
+
+.headerDetails h2{
+  color: white;
+}
+
+.header img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  margin: 0em 0.5em;
+}
+
+.header svg {
+  margin: 0.4em;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.repository{
+  display: flex;
+  flex-direction: column;
+}
+
+.repositoryHeader {
+  background: #dae6f0;
+  cursor: pointer;
+  padding: 0em 0.5em;
+  border-bottom: 0.1em solid #cccccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repositoryHeader h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.repositoryHeader p {
+  font-size: 0.8em;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  border: solid #cccccc;
+  border-width: 0em 0.1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: row;
+  padding: 0em 0.5em;
+  border-bottom: 0.1em solid #cccccc;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contentHeader svg
+{
+  vertical-align: middle;
+  padding-right: 0.5em;
+}
+
+.contentHeader h4{
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
